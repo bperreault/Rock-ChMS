@@ -341,6 +341,33 @@
     <Compile Include="Web\UI\Controls\Communication\ChannelControl.cs" />
     <Compile Include="Data\IgnoreModelErrorsAttribute.cs" />
     <Compile Include="Model\CommunicationRecipientService.Partial.cs" />
+    <Compile Include="Migrations\201304230018433_TransactionsPageUpdate.cs" />
+    <Compile Include="Migrations\201304230018433_TransactionsPageUpdate.Designer.cs">
+      <DependentUpon>201304230018433_TransactionsPageUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201304240025206_CheckMicrEncrypted.cs" />
+    <Compile Include="Migrations\201304240025206_CheckMicrEncrypted.Designer.cs">
+      <DependentUpon>201304240025206_CheckMicrEncrypted.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201304250012126_PublicPledgeBlocks.cs" />
+    <Compile Include="Migrations\201304250012126_PublicPledgeBlocks.Designer.cs">
+      <DependentUpon>201304250012126_PublicPledgeBlocks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201304262200031_FinancialBatchPerson.cs" />
+    <Compile Include="Migrations\201304262200031_FinancialBatchPerson.Designer.cs">
+      <DependentUpon>201304262200031_FinancialBatchPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201304291727480_StateDropDownList.cs" />
+    <Compile Include="Migrations\201304291727480_StateDropDownList.Designer.cs">
+      <DependentUpon>201304291727480_StateDropDownList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201305032019044_DateTimeDataTypesSweep.cs" />
+    <Compile Include="Migrations\201305032019044_DateTimeDataTypesSweep.Designer.cs">
+      <DependentUpon>201305032019044_DateTimeDataTypesSweep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Net\RockRestClient.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Security\LoginParameters.cs" />
     <Compile Include="CheckIn\CheckInBlock.cs">
       <SubType>ASPXCodeBehind</SubType>
