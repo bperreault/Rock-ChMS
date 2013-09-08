@@ -295,6 +295,10 @@
     <Compile Include="Utility\DoubleMetaphone.cs" />
     <Compile Include="Utility\RockDateTime.cs" />
     <Compile Include="Services\NuGet\NuGetExtensionsMethods.cs" />
+    <Compile Include="Migrations\201309082157530_AddMetricValueCampusId.cs" />
+    <Compile Include="Migrations\201309082157530_AddMetricValueCampusId.Designer.cs">
+      <DependentUpon>201309082157530_AddMetricValueCampusId.cs</DependentUpon>
+    </Compile>
     <Compile Include="Storage\ProviderComponent.cs" />
     <Compile Include="Storage\ProviderContainer.cs" />
     <Compile Include="Storage\Provider\Database.cs" />
@@ -1035,6 +1039,23 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Auth\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201308232058045_CreateDatabase.resx">
+      <DependentUpon>201308232058045_CreateDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201308291631419_FixAbilityLevelAttribute.resx">
+      <DependentUpon>201308291631419_FixAbilityLevelAttribute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201309032043048_FixBinaryFileTypeCaching.resx">
+      <DependentUpon>201309032043048_FixBinaryFileTypeCaching.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201309070045381_CheckinConfigUI.resx">
+      <DependentUpon>201309070045381_CheckinConfigUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201309082157530_AddMetricValueCampusId.resx">
+      <DependentUpon>201309082157530_AddMetricValueCampusId.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
